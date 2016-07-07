@@ -9,7 +9,7 @@
 }
 
 .inner-container {
-	width: 90%;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -133,7 +133,9 @@ body {
 }
 
 .split-container p {
-	padding: 20px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 0.9em;
+	padding: 20px 10px;
 	text-align: center;
 }
 
@@ -192,7 +194,6 @@ body {
    	text-align: center;
    	font-size: 60px;
    	line-height: 70px;
-   	font-family: 'roboto', sans-serif;
    }
 
    #container {
