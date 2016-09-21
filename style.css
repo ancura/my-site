@@ -33,12 +33,6 @@
 	}
 }
 
-
-footer {
-
-}
-
-
 /***Elements***/
 
 body {
@@ -180,15 +174,15 @@ body {
 	display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 	width: 100%;
 }
 
 .portfolio-container {
 	position: relative;
-	width: 32%;
+	width: 24%;
     height: 200px;
-    margin: .8% 0;
+    margin: .5%;
     overflow: hidden;
     background-color: rgba(232,99,78,1);
 }
@@ -240,6 +234,37 @@ body {
 		margin: .8% .8%;
 	}
 }
+
+
+/***section four start***/
+
+footer {
+	width: 100%;
+	float: left;
+}
+
+footer .inner-container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+footer .inner-container div	{
+	width: 50%;
+	color: rgba(232,99,78,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* =================
